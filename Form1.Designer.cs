@@ -93,6 +93,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 25);
             this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "5";
             // 
             // textBox2
             // 
@@ -233,6 +234,7 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 25);
             this.textBox10.TabIndex = 21;
+            this.textBox10.Text = "10";
             // 
             // label11
             // 
@@ -241,7 +243,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(60, 15);
             this.label11.TabIndex = 22;
-            this.label11.Text = "生产者1";
+            this.label11.Text = "生产者0";
             // 
             // label12
             // 
@@ -250,7 +252,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(60, 15);
             this.label12.TabIndex = 23;
-            this.label12.Text = "生产者2";
+            this.label12.Text = "生产者1";
             // 
             // label13
             // 
@@ -259,7 +261,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(60, 15);
             this.label13.TabIndex = 24;
-            this.label13.Text = "生产者3";
+            this.label13.Text = "生产者2";
             // 
             // label14
             // 
@@ -268,7 +270,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(60, 15);
             this.label14.TabIndex = 25;
-            this.label14.Text = "生产者4";
+            this.label14.Text = "生产者3";
             // 
             // label15
             // 
@@ -277,7 +279,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(60, 15);
             this.label15.TabIndex = 26;
-            this.label15.Text = "消费者1";
+            this.label15.Text = "消费者0";
             // 
             // label16
             // 
@@ -286,7 +288,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(60, 15);
             this.label16.TabIndex = 27;
-            this.label16.Text = "消费者2";
+            this.label16.Text = "消费者1";
             // 
             // label17
             // 
@@ -295,7 +297,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(60, 15);
             this.label17.TabIndex = 28;
-            this.label17.Text = "消费者3";
+            this.label17.Text = "消费者2";
             // 
             // label18
             // 
@@ -304,7 +306,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(60, 15);
             this.label18.TabIndex = 29;
-            this.label18.Text = "消费者4";
+            this.label18.Text = "消费者3";
             // 
             // checkBox1
             // 
@@ -476,7 +478,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox3;  
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;

@@ -80,11 +80,11 @@ namespace OS_3
                     case 0:
                         {
                             this.textBox2.Text = "等待empty信号量中...";
-                            empty.WaitOne();
+                            empty.WaitOne();// empty
                             empty1--;
                             this.label5.Text = empty1.ToString(); 
                             this.textBox2.Text = "已获得empty信号量，等待mutex中...";
-                            mutex.WaitOne();
+                            mutex.WaitOne();// mutex
                             this.label3.Text = "Proceducer " + index;
                             this.textBox2.Text = "已获得mutex信号量，生产中...";
                             this.textBox2.BackColor = Color.Yellow;
@@ -100,7 +100,7 @@ namespace OS_3
                             mutex.Release();
                             full.Release();
 
-                            Thread.Sleep(1000);
+                            Thread.Sleep(500);
                             
                             break;
                         }
@@ -128,7 +128,7 @@ namespace OS_3
                             mutex.Release();
                             full.Release();
 
-                            Thread.Sleep(1000);
+                            Thread.Sleep(500);
 
                             break;
                         }
@@ -155,7 +155,7 @@ namespace OS_3
                             mutex.Release();
                             full.Release();
 
-                            Thread.Sleep(1000);
+                            Thread.Sleep(500);
 
                             break;
                         }
@@ -183,7 +183,7 @@ namespace OS_3
                             mutex.Release();
                             full.Release();
 
-                            Thread.Sleep(1000);
+                            Thread.Sleep(500);
 
                             break;
                         }
@@ -224,7 +224,7 @@ namespace OS_3
                             mutex.Release();
                             empty.Release();
 
-                            Thread.Sleep(1000);
+                            Thread.Sleep(500);
 
                             break;
                         }
@@ -251,7 +251,7 @@ namespace OS_3
                             mutex.Release();
                             empty.Release();
 
-                            Thread.Sleep(1000);
+                            Thread.Sleep(500);
 
                             break;
                         }
@@ -278,7 +278,7 @@ namespace OS_3
                             mutex.Release();
                             empty.Release();
 
-                            Thread.Sleep(1000);
+                            Thread.Sleep(500);
 
                             break;
                         }
@@ -305,7 +305,7 @@ namespace OS_3
                             mutex.Release();
                             empty.Release();
 
-                            Thread.Sleep(1000);
+                            Thread.Sleep(500);
 
                             break;
                         }
